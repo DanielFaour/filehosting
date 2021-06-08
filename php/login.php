@@ -29,8 +29,7 @@
             <?php
 
             while ($row = pg_fetch_row($result_user)) {
-                echo "<h1>Access granted.</h1>";
-                echo "<p>Welcome $username.</p>";    
+                echo "<h1>Access granted.</h1>";   
             }
 
             $sql_user_roles = "SELECT users.user_id, username, rolename 

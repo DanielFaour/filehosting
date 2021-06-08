@@ -1,9 +1,6 @@
 #content {
     text-align: center;
-}
-
-#content #login {
-    margin-top: 120px;
+    margin-top: 50px;
 }
 
 #content label {
@@ -44,5 +41,31 @@
   }
 
 #content h1 {
+    font-size: 24px;
     color: #39FF14;
 }
+
+table {
+    user-select: none;
+    margin: auto;
+    color: #39FF14;
+}
+
+table, th, td {
+    border: 1px solid #39FF14;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 15px;
+  }
+
+  .hideElement {
+    color: transparent;
+    text-shadow: 0px 0px 10px #39FF14;
+    transition: 0.1s;
+  }
+
+  .hideElement:hover {
+    color: #39FF14;
+    text-shadow: none;
+  }

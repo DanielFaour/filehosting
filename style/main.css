@@ -53,9 +53,3 @@ header nav ul li a:hover {
 #selectedPage a:hover {
     color: red;
 }
-
-
-
-#content {
-    margin-top: 50px;
-}

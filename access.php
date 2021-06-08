@@ -21,7 +21,7 @@
             <ul>
                 <li><a href="index.html">/ Home</a></li>
                 <li id="selectedPage"><a href="access.php">/ Access</a></li>
-                <li><a href="#register">/ Register</a></li>
+                <li><a href="register.html">/ Register</a></li>
             </ul>
         </nav>
     </header>
@@ -30,13 +30,16 @@
 <div id="content">
 
     <form id="login" method="GET" autocomplete="off">
+        <h1>
+            Login to gain access
+        </h1>
         <label for="username">Username:</label><br><br>
         <input class="textInput" type="text" id="username" name="username" required><br><br>
         <label for="password">Password:</label><br><br>
         <input class="textInput" type="password" id="password" name="password" required><br><br>
         <input class="button" type="submit" value="Login">
         <p>
-            Don't have an user? <a href="#register">Click here!</a>
+            Don't have an user? <a href="register.html">Click here!</a>
         </p>
     </form>
 
