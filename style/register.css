@@ -7,3 +7,45 @@ h1 {
     text-align: center;
     color:#39FF14;
 }
+
+#content {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#content label {
+    color: #39FF14;
+}
+
+#content .textInput {
+    width: 250px;
+    height: 25px;
+    border: none;
+}
+
+#content .button {
+    background-color: #39FF14; /* Green */
+    border: none;
+    color: rgb(0, 4, 36);
+    width: 254px;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+  #content .button:hover {
+      background-color: #20d600;
+  }
+
+  #content p {
+      color: #39FF14;
+  }
+
+  #content a {
+      color: white;
+  }

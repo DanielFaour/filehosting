@@ -31,7 +31,7 @@
 
     <form id="login" method="GET" autocomplete="off">
         <h1>
-            Login to gain access
+            Login to access service
         </h1>
         <label for="username">Username:</label><br><br>
         <input class="textInput" type="text" id="username" name="username" required><br><br>
