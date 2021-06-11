@@ -39,6 +39,7 @@ header nav ul li a {
     text-decoration: none;
     color:#39FF14;
     font-size: 24px;
+    transition: 0.15s;
 }
 
 header nav ul li a:hover {

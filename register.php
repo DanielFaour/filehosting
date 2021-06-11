@@ -1,3 +1,8 @@
+<?php
+    session_start();
+    require 'php/connect.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,14 +22,14 @@
             <ul>
                 <li><a href="index.html">/ Home</a></li>
                 <li><a href="access.php">/ Access</a></li>
-                <li id="selectedPage"><a href="register.html">/ Register</a></li>
+                <li id="selectedPage"><a href="register.php">/ Register</a></li>
             </ul>
         </nav>
     </header>
 </body>
 
 <div id="content">
-    <form id="register" onsubmit="return validatePassword()" autocomplete="off">
+    <form id="register" method="GET" onsubmit="return validatePassword()" autocomplete="off">
         <h1>
             Register a new user
         </h1>
@@ -39,10 +44,14 @@
 
         <button type="submit" class="button">Register</button>
 
-        <p>Already have an user? <a href="#">Click here!</a></p>
+        <p>Already have an user? <a href="access.php">Click here!</a></p>
 
-        <p id="error" style="display: none;">error</p>
+        <p id="errorPass" style="display: none;">Password must match*</p>
     </form>
+
+    <?php
+        include "php/registerstration.php";
+    ?>
 
 </div>
 
